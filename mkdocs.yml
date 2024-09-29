@@ -1,0 +1,51 @@
+site_name: Fuzz Swarm
+site_url: https://github.com/0xBl4nk
+theme:
+  name: material
+  font:
+    text: Merriweather Sans
+    code: Source Code Pro
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: purple
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: orange
+      accent: yellow
+            
+plugins:
+  - social
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/0xBl4nk
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/arthurottoni/
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/0xBl4nk"  target="_blank" rel="noopener">0xBl4nk</a>
